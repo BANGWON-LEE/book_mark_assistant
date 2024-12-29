@@ -1,0 +1,161 @@
+@media (prefers-color-scheme: light) {
+  a:hover {
+    color: #61dafb;
+  }
+}
+
+main {
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #61dafb;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.2rem;
+  margin: 2rem auto;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+
+  & > button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #61dafb;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #61dafb;
+    cursor: pointer;
+    outline: none;
+
+    width: 3rem;
+    margin: 0 a;
+  }
+
+  & > label {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+}
+
+a {
+  font-size: 0.5rem;
+  margin: 0.5rem;
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.book_mark_box {
+  width: 100%;
+}
+
+.book_mark_title_box {
+  width: 100%;
+  text-align: center;
+}
+
+.book_mark_box_inner {
+  width: 100%;
+}
+
+.book_mark_box_text_ul {
+  width: 90%;
+  height: 300px;
+  overflow: scroll;
+}
+
+.book_mark_box_text_li {
+  width: 95%;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.book_mark_search_box {
+  text-align: center;
+}
+
+.title_font {
+  text-align: center;
+  font-size: medium;
+}
+
+#searchText {
+  border-radius: 10px;
+  padding: 10px;
+  width: 240px;
+  margin-left: 50px;
+  padding-right: 80px;
+}
+
+.search-btn {
+  border-radius: 5px;
+  background-color: coral;
+  color: #fff;
+  border: 0px;
+  padding: 7px;
+  position: relative;
+  right: 60px;
+  /* top: 5px; */
+}
+
+.action_btn_fix {
+  border-radius: 5px;
+  background-color: rgb(53, 178, 34);
+  color: #fff;
+  border: 0px;
+  padding: 7px 9px;
+}
+.action_btn_clear {
+  border-radius: 5px;
+  background-color: firebrick;
+  color: #fff;
+  border: 0px;
+  padding: 7px;
+}
+
+/* 스크롤바 전체 영역 */
+::-webkit-scrollbar {
+  width: 12px; /* 세로 스크롤바 너비 */
+  height: 12px; /* 가로 스크롤바 높이 */
+}
+
+/* 스크롤바 트랙 (배경) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 트랙 배경색 */
+  border-radius: 6px; /* 둥근 모서리 */
+}
+
+/* 스크롤바 손잡이 */
+::-webkit-scrollbar-thumb {
+  background: #888; /* 손잡이 색상 */
+  border-radius: 6px; /* 둥근 모서리 */
+  border: 3px solid #f1f1f1; /* 손잡이와 트랙 사이 여백 */
+}
+
+/* 스크롤바 손잡이 (호버 시) */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 호버 시 손잡이 색상 */
+}
+
+/* IE 및 Edge(구버전) 지원 */
+body {
+  scrollbar-width: thin; /* Firefox: 얇은 스크롤바 */
+  scrollbar-color: #888 #f1f1f1; /* Firefox: 손잡이와 트랙 색상 */
+}
+
+.text_not_found {
+  text-align: center;
+  font-size: larger;
+}
